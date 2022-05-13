@@ -5,6 +5,8 @@
 * @version: 1.0
 * @description: 类模板类内实现
 ********************************************************************************/
+#if 0
+
 #include <iostream>
 
 using namespace std;
@@ -35,3 +37,5 @@ int main() {
 
     return 0;
 }
+
+#endif
