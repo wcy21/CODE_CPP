@@ -5,7 +5,7 @@
 * @version: 1.0
 * @description: 异常类型和异常对象
 ********************************************************************************/
-#if 1
+#if 0
 
 #include <iostream>
 #include <cstring>
@@ -23,12 +23,27 @@ void func02() {
 class MyException {
 public:
     MyException() {
-        error = "未知异常";
+        error = (char *) "未知异常";
     }
 
     MyException(const char *str) {
         error = new char[strlen(str) + 1];
         strcpy(error, str);
+    }
+
+    MyException(const MyException &ex) {
+        this->error = new char[strlen(ex.error) + 1];
+        strcpy(this->error, ex.error);
+    }
+
+    MyException &operator=(const MyException &ex) {
+        if (this->error != NULL) {
+            delete[] this->error;
+            this->error = NULL;
+        }
+        this->error = new char[strlen(ex.error) + 1];
+        strcpy(this->error, ex.error);
+        return *this;
     }
 
     void what() {
