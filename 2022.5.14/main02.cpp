@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 类模板分文件编写
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 #include "Person.hpp"
@@ -21,5 +20,3 @@ int main() {
 
     return 0;
 }
-
-#endif

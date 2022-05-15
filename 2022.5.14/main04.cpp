@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: MyArray模板类
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 
@@ -116,5 +115,3 @@ int main() {
 
     return 0;
 }
-
-#endif

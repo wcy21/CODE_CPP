@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 异常类型和异常对象
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 #include <cstring>
@@ -92,5 +91,3 @@ int main() {
 
     return 0;
 }
-
-#endif

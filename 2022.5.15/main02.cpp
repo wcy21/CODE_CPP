@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 标准输出流与格式化输出
 ********************************************************************************/
-#if 1
 
 #include <iostream>
 #include <cstring>
@@ -54,5 +53,3 @@ int main() {
 
     return 0;
 }
-
-#endif

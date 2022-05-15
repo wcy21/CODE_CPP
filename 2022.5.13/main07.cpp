@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 普通类的分文件编写
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 #include "Person.h"
@@ -18,5 +17,3 @@ int main() {
 
     return 0;
 }
-
-#endif

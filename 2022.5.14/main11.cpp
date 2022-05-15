@@ -5,7 +5,6 @@
 * @version: 1.0
 * @description: 校准异常库示例
 ********************************************************************************/
-#if 0
 
 #include <iostream>
 #include <stdexcept>
@@ -81,5 +80,3 @@ int main() {
 
     return 0;
 }
-
-#endif
