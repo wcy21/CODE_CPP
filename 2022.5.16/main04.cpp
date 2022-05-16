@@ -3,7 +3,7 @@
 * @project: 2022_5_16 
 * @date: 2022/5/16 1:36
 * @version: 1.0
-* @description: STL hello world 程序
+* @description: STL案例
 ********************************************************************************/
 
 #include <iostream>
