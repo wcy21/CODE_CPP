@@ -1,9 +1,9 @@
 /********************************************************************************
-* @author: 兔子
+* @author: 鍏斿瓙
 * @project: 2022_5_16 
 * @date: 2022/5/16 0:35
 * @version: 1.0
-* @description: 文件读写
+* @description: 鏂囦欢璇诲啓
 ********************************************************************************/
 
 #include <iostream>
@@ -19,7 +19,7 @@ void test01() {
     ofstream ofs(DEST_FILE, ios::out | ios::app);
 
     if (!ifs) {
-        cout << "文件打开失败" << endl;
+        cout << "鏂囦欢鎵撳紑澶辫触" << endl;
         return;
     }
 

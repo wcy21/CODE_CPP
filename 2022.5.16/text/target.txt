@@ -10,7 +10,3 @@ hello world
 hello c++
 hello clion
 thank you cheems
-hello world
-hello c++
-hello clion
-thank you cheems
