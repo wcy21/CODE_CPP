@@ -52,8 +52,9 @@ public:
     int m_ID;
 };
 
-struct MyCompare {
-    bool operator()(const MyKey &key1, const MyKey &key2) {
+class MyCompare {
+public:
+    bool operator()(const MyKey &key1, const MyKey &key2) const {
         return key1.m_index > key2.m_index;
     }
 };
